@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        var i = 0;
+
+        function exam() {
+            if (document.f1.n1[0].checked)
+                i = i + 1;
+            if (document.f1.n2[0].checked)
+                i = i + 1;
+            alert("your score is" + i + "/2");
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Online Exam</h2>
+    <form name="f1">
+        <h3>What type of scripting language is javascript</h3>
+        <input type="radio" id="javascript" name="n1" value="client side">client side
+        <input type="radio" id="javascript" name="n1" value="server side">server side
+        <h3>which keyword is used for variable declaration in javascript</h3>
+        <input type="radio" id="variable" name="n2" value="var">var
+        <input type="radio" id="variable" name="n2" value="$">$
+        <br>
+        <br>
+        <input type="submit" value="Submit" onclick="exam()">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(222, 241, 243);
+}
+
+.m {
+    text-align: center;
+}
+
+.n {
+    color: #37a737;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#o {
+    font-style: bold;
+    font-size: 20px;
+}

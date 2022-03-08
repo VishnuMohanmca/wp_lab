@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <div class="a" id="a">
+        <img src="hello.jpg" id="image"><br><br>
+        <h1 id="text1">Hello..... </h1>
+        <h1 id="text2">June..</h1>
+    </div>
+    <script>
+        document.getElementById("a").addEventListener("mouseover", ab);
+        document.getElementById("a").addEventListener("mouseout", bc);
+
+        function ab() {
+            document.getElementById('image').src = "june.jfif";
+            document.getElementById('text1').style.display = "none";
+            document.getElementById('text2').style.display = "block"
+        }
+
+        function bc() {
+            document.getElementById('image').src = "hello.jpg";
+            document.getElementById('text1').style.display = "block";
+            document.getElementById('text2').style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
